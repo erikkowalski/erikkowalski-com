@@ -1,0 +1,382 @@
+body {
+	background-image:url(../img/patterns/light_wool.png);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #000;
+    background-image: -webkit-linear-gradient(right, #000, #ccc, #000);
+    background-image:    -moz-linear-gradient(right, #000, #ccc, #000);
+    background-image:     -ms-linear-gradient(right, #000, #ccc, #000);
+    background-image:      -o-linear-gradient(right, #000, #ccc, #000);
+}
+
+/* Images */
+.entry-content img,
+.comment-content img,
+.widget img {
+max-width: 100%; /* Fluid images for posts, comments, and widgets */
+}
+img[class*="align"],
+img[class*="wp-image-"] {
+height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+img.size-full {
+max-width: 100%;
+width: auto; /* Prevent stretching of full-size images with height and width attributes in IE8 */
+}
+
+img.wp-post-image {
+	max-width: 100%;
+	height:auto;
+
+}
+
+.page-id-181 img {
+	margin-bottom:60px;
+}
+
+/*---------- Navbar styles ----------*/
+
+.navbar {
+	letter-spacing:0.1em;
+	font-weight:100;
+}
+
+.navbar-header .navbar-brand {
+	font-family:"proxima-nova";
+	font-size:1em;
+	font-weight:100;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	font-weight:600;
+}
+
+.navbar-default .navbar-toggle {
+    border-radius: 0;
+    border-color:#fff;
+    background: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    border-radius: 0;
+    background: #272727;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+
+.navbar-right {
+    text-transform: uppercase;
+
+}
+
+/*----------- index page style ----------*/
+
+.wp-post-image {
+    display: block;
+}
+
+.published {
+      padding-right: 1em;
+
+}
+
+.article-preview img{
+    margin-bottom: 1em;
+
+}
+
+.author {
+    display: inline-block;
+    padding-right: 2em;
+}
+
+
+.page-header h1{
+    font-weight: 100;
+}
+
+/*----------- Side Bar Styles -----------*/
+
+.sidebar {
+	margin-top:8em;
+}
+
+.sidebar h3 {
+	font-size:1em;
+	text-transform:uppercase;
+	padding-bottom:0.5em;
+	border-bottom:1px solid #c4c4c4;
+    font-weight: 600;
+    color: #464646;
+}
+
+.sidebar ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+
+}
+
+.sidebar a {
+    color: black;
+}
+
+.entry-summary {
+	border-bottom:2px solid #c4c4c4;
+}
+
+/*----------- Single Post  -----------*/
+
+.single-post .author, .single-post .published{
+    color: #333;
+    font-size: 0.9em;
+}
+
+.single-post .author a {
+     color: #333;
+    margin-left: 0.5em;
+}
+
+
+/*----------- Post entery title & meta -----------*/
+
+.author {
+	font-family:"proxima-nova";
+}
+
+.entry-title {
+	text-transform:uppercase;
+	font-weight:100;
+    background: black;
+    padding:0.5em 1em;
+    color:#fff;
+}
+
+.entry-title a {
+	color:#fff;
+}
+
+.entry-meta {
+	padding-top:0.5em;
+	text-transform:uppercase;
+	font-size:0.9em;
+	border-bottom:2px solid #c4c4c4;
+	margin-bottom:1em;
+
+}
+
+.entry-meta time {
+	display:inline-block;
+	padding-right:1em;
+		font-family:"proxima-nova";
+}
+
+.entry-meta p {
+	display:inline-block;
+	font-family:"proxima-nova";
+}
+
+.post .entry-title {
+    background: white;
+    color: #333;
+    padding-left: 0;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid #7c7c7c;
+    font-weight: 100;
+    margin: 0 0 0.2em 0;
+}
+
+.post .entry-content img{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+
+}
+
+/*----------- Comments -----------*/
+
+#comments {
+	background:rgba(255, 255, 255, 0.9);
+	border-top:1px solid #7c7c7c;
+}
+
+#comments h3 {
+	font-size:1em;
+	font-weight:800;
+	text-transform:uppercase;
+}
+
+#comments h4, #comments time {
+	display:inline-block;
+}
+
+
+} /*------- open media quiere -----*/
+
+@media (min-width: 480px) {
+
+#comments .media-body p {
+	padding-right:15em;
+}
+} /*------- close media quiere -----*/
+
+
+
+
+/*------- Contact Form style -----*/
+
+.page-template-template-contact-php {
+}
+
+#contact {
+    padding:6em 4em 14em 4em;
+    background-repeat:repeat-x;
+    background-attachment:fixed;
+}
+
+
+.intro {
+    padding-top:4em;
+    background:rgba(181, 181, 181, 0.28);
+}
+
+#contact div {
+    margin:1em 0 1em 0;
+}
+
+#contact  {
+    max-width:700px;
+    margin: 0 auto;
+}
+
+#textfield  {
+    margin:1em 0 1em 0;
+}
+
+#contact h1 {
+    padding:0.5em 0 0.5em 0.5em;
+    border-radius:10px;
+    margin-top:2em;
+    letter-spacing:0.03em;
+}
+
+.error {
+    color:rgb(160, 72, 72);
+    padding-left:1em;
+}
+
+/*----------- 404-----------*/
+
+.not-found {
+    max-width: 760px;
+    margin-bottom:6em;
+}
+
+.not-found h1 {
+    font-size: 5em;
+    font-weight: 100;
+
+}
+
+.alert-warning {
+    background:  rgb(255, 255, 255);
+    border-color: #eeeeee;
+    color: #000;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.not-found hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: white;
+}
+
+/*----------- footer -----------*/
+
+footer {
+	padding:1em;
+	margin-bottom:1em;
+    padding-bottom: 10em;
+
+}
+
+footer p {
+	font-family:"proxima-nova";
+}
+
+.content-info {
+	background:#000;
+	background-image:url(../img/patterns/rebel.png);
+	margin-bottom:0;
+	margin-top:4em;
+	border-top:20px solid #2f2f2f;
+}
+
+.content-info h3 {
+	letter-spacing:0.1em;
+	font-weight:400;
+}
+
+.content-info p {
+	font-size:0.4em;
+}
+
+.content-info, .content-info p{
+	color:#999;
+	font-weight:100;
+	font-size:1.1em;
+}
+
+
+.content-info h3 {
+	font-size:1em;
+	text-transform:uppercase;
+	padding-bottom:0.5em;
+	border-bottom:1px solid #c4c4c4;
+}
+
+.content-info ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+
+footer .container > p {
+	letter-spacing:0.08em;
+	text-align:center;
+}
+
+/* add boostrap grid col-md-3 styling to footer widgets */
+
+.content-info .widget {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+@media (min-width: 768px) {
+.content-info .widget {
+    float: left;
+    width: 50%;
+  }
+
+  }
+
+@media (min-width: 992px) {
+.content-info .widget {
+		float: left;
+		width: 25%;
+	}
+} /* close media querie */
